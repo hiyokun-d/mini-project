@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    text-shadow: 0 0 15px;
+}
+
+canvas {
+    background-color: rgb(241, 207, 207);
+    border-radius: 5px;
+    border: double 5px white;
+}
+
+#start {
+    position: absolute;
+    width: 200px;
+    text-align: center;
+    color: rgb(109, 109, 108)
+}
+
+#gone {
+    opacity: 0;
+    transition: all 0.5s;
+    position: absolute;
+    width: 200px;
+}
+
